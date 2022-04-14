@@ -27,6 +27,20 @@ def exercise4():
     print(currentDistance)
     print(2*currentDistance)
     print(4*currentDistance)
+
+
+def exercise5():
+    leftlight = bird.getLight('L')
+    rightlight = bird.getLight('R')
+    difference = leftlight-rightlight
+    print('difference:',difference)
+
+
+def exercise6():
+    leftlight = bird.getLight('L')
+    rightlight = bird.getLight('R')
+    difference = leftlight-rightlight
+    print('mean:',difference)
     
 
 
@@ -34,4 +48,6 @@ def exercise4():
 #exercise1()    
 #exercise2()
 #exercise3()
-exercise4()
+#exercise4()
+#exercise5()
+#exercise6()
